@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+    background-color: lightpink;
+}
+
+footer {
+    font-size: medium;
+    color: red;
+    text-align: center;
+}
+
+main figcaption {
+    color: darkgreen;
+    font-size: larger;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Adjust header font sizes */
+    h1 {
+        font-size: 2em; /* Smaller font size for header */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Smaller font size for subheaders */
+    }
+
+    p {
+        font-size: 1em; /* Smaller font size for paragraphs */
+    }
+
+    figure {
+        display: flex; /* Flex layout for figures */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+        margin: 20px 0; /* Add some margin */
+    }
+
+    img {
+        width: 100%; /* Make images responsive */
+        max-width: 300px; /* Limit maximum width of images */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+@media (max-width: 769px) and (max-height: 520px) {
+    body {
+        font-size: 14px; /* Adjusts the base font size */
+    }
+
+    header h1 {
+        font-size: 1.5em; /* Smaller header font size */
+    }
+
+    main section {
+        padding: 10px; /* Reduces padding */
+    }
+
+    figure {
+        width: 100%; /* Ensures figures take full width */
+        margin: 10px 0; /* Adds spacing around figures */
+    }
+
+    img {
+        width: 100%; /* Makes images responsive */
+        height: auto; /* Maintains aspect ratio */
+    }
+}
+
+
+
+
+
+
